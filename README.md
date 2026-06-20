@@ -11,7 +11,6 @@ A Python-based UI test automation framework using **Selenium**, **Behave** (BDD)
 | [Selenium](https://www.selenium.dev/) | Browser automation |
 | [Behave](https://behave.readthedocs.io/) | BDD test runner (Gherkin) |
 | [behave-html-formatter](https://github.com/behave-contrib/behave-html-formatter) | Single-file HTML test report |
-| [webdriver-manager](https://github.com/SergeyPirogov/webdriver_manager) | Automatic driver binary management |
 | [python-dotenv](https://github.com/theskumar/python-dotenv) | Load credentials from `.env` |
 | [PyYAML](https://pyyaml.org/) | Load settings from `config.yaml` |
 
@@ -113,6 +112,7 @@ Open `report.html`.
 ## Future improvements
 - [ ] Change the report to use Allure instead of Behave.
 - [ ] Take a print screen on failure and embed it in the report.
+- [ ] Add better error handling and logging with user-friendly messages.
 - [ ] Prepare a separate DriverActions file with web interactions (waits, clicks, getting element parameters, etc.)
 - [ ] Add support for other browsers.
 - [ ] Add support for multiple environments (staging, production).

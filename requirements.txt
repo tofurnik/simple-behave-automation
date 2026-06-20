@@ -1,6 +1,5 @@
-selenium>=4.0.0
-behave>=1.2.6
-behave-html-formatter>=0.9.9
-python-dotenv>=1.0.0
-webdriver-manager>=4.0.0
-PyYAML>=6.0
+selenium~=4.6
+behave~=1.2
+behave-html-formatter~=0.9
+python-dotenv~=1.0
+PyYAML~=6.0

@@ -18,8 +18,6 @@ _yaml = _load()
 # Portal settings (config.yaml)
 # -------------------------------------------------------------------
 BASE_URL: str = _yaml.get("base_url", "")
-LOGIN_PATH: str = _yaml.get("login_path", "")
-BROWSER: str = _yaml.get("browser", "chrome")
 HEADLESS: bool = bool(_yaml.get("headless", False))
 TIMEOUT: int = int(_yaml.get("timeout", 30))
 
