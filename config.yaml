@@ -1,0 +1,5 @@
+base_url: "https://practicetestautomation.com/practice-test-login/"
+login_path: ""
+browser: "chrome"
+headless: false
+timeout: 10
