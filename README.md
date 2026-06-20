@@ -110,10 +110,11 @@ Open `report.html`.
 ---
 
 ## Future improvements
-- [ ] Change the report to use Allure instead of Behave.
-- [ ] Take a print screen on failure and embed it in the report.
+- [ ] Change the report to use Allure instead of Behave HTML Formatter.
+- [ ] Take a print screen on failure and embed it in the report upon failure.
 - [ ] Add better error handling and logging with user-friendly messages.
 - [ ] Prepare a separate DriverActions file with web interactions (waits, clicks, getting element parameters, etc.)
+- [ ] Remove the python-dotenv dependency and prepare a custom method of loading credentials.
 - [ ] Add support for other browsers.
 - [ ] Add support for multiple environments (staging, production).
 - [ ] Add support for parallel execution.
